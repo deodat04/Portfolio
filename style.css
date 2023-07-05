@@ -1,155 +1,139 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Poppins', sans-serif;
-    max-height: 100vh;
-    background-color: #1F252E;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: "Poppins", sans-serif;
+  max-height: 100vh;
+  background-color: #1f252e;
 }
 
 /*nav */
 header {
-    padding: 1.7rem 1rem;
-    background-color: #fff;
-    display: flex;
-    /* All on the same line*/
-    justify-content: space-between;
-    /*space in elements*/
-    max-width: 80%;
-    /*on regle la largeur maximale du header*/
-    margin: auto;
-    /*veiller a ce que le changement s'applique automatiquement des deux cotes*/
-    align-items: center;
-    background-color: transparent;
-    /*ainsi le header a la couleur du background*/
+  padding: 1.7rem 1rem;
+  background-color: #fff;
+  display: flex;
+  /* All on the same line*/
+  justify-content: space-between;
+  /*space in elements*/
+  max-width: 80%;
+  /*on regle la largeur maximale du header*/
+  margin: auto;
+  /*veiller a ce que le changement s'applique automatiquement des deux cotes*/
+  align-items: center;
+  background-color: transparent;
+  /*ainsi le header a la couleur du background*/
 }
 
 .logo {
-    font-size: 1.3rem;
-    /*augmente la taille de l'element*/
-    font-weight: 800;
+  font-size: 1.3rem;
+  /*augmente la taille de l'element*/
+  font-weight: 800;
 }
 
 .logo a {
-    color: #fff;
-    text-decoration: none;
-    /*enleve le soulignement par defaut*/
+  color: #fff;
+  text-decoration: none;
+  /*enleve le soulignement par defaut*/
 }
 
 .logo img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .detail {
-    padding: 1rem;
-    letter-spacing: .7px;
+  padding: 1rem;
+  letter-spacing: 0.7px;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: .97rem;
-    font-weight: 600;
-    /*agit sur l'aspect bold*/
-    letter-spacing: .7px;
-    /*espace entre les elements*/
-    padding: 1rem;
-    /*met de l'espace 1rem entre tous les a*/
-    padding: 0.4rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.97rem;
+  font-weight: 600;
+  /*agit sur l'aspect bold*/
+  letter-spacing: 0.7px;
+  /*espace entre les elements*/
+  padding: 1rem;
+  /*met de l'espace 1rem entre tous les a*/
+  padding: 0.4rem 1rem;
 }
 
 nav a.active,
 nav a:hover {
-    color: #00E8F8;
-    border-radius: 1rem;
-    transition: all.3s ease-in-out;
+  color: #00e8f8;
+  border-radius: 1rem;
+  transition: all.3s ease-in-out;
 }
 
 #click {
-    display: none;
-    /*fait disparaitre le checkbox*/
+  display: none;
+  /*fait disparaitre le checkbox*/
 }
 
 .menu i {
-    color: #00E8F8;
+  color: #00e8f8;
 }
 
 .menu {
-    display: none;
+  display: none;
 }
 
 /* Nav */
 
 section {
-    margin: 2rem 8.5rem;
-    /*regle la disposition de section*/
-    ;
+  margin: 2rem 8.5rem;
+  /*regle la disposition de section*/
 }
 
 .main {
-    display: flex;
-    /*so img and p on the same line*/
-    flex-wrap: wrap;
-    /*disposition*/
-    justify-content: space-between;
-    align-items: center;
-    margin: 5rem auto;
+  display: flex;
+  /*so img and p on the same line*/
+  flex-wrap: wrap;
+  /*disposition*/
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem auto;
 }
 
 .main h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #fff;
-    /* animation: check 1s ease forwards;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  /* animation: check 1s ease forwards;
     animation-delay: .1s; */
 }
 
 .main p {
-    margin-top: 1rem;
-    /*descend*/
-    font-size: .98rem;
-    color: #fff;
+  margin-top: 1rem;
+  /*descend*/
+  font-size: 0.98rem;
+  color: #fff;
 }
 
 .social a {
-    /*
-    color: #00E8F8;
-    font-size: 1rem;
-    border: 1.6px solid #00E8F8;
-    border-radius: 60%;
-    padding: .35rem;
-    les trois lignes de haut sont pour creer les cercles qui contiennent les icones
-    text-align: center;
-    width: 26px;
-    padding: 3%;
-    margin-right: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-*/
-
-    color: #00E8F8;
-    font-size: 1rem;
-    border: 1.6px solid #00E8F8;
-    border-radius: 100%;
-    padding: .45rem;
-    /*les trois lignes de haut sont pour creer les cercles qui contiennent les icones*/
-    text-align: center;
-    width: 26px;
-    padding: 2%;
-    margin-right: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
+  color: #00e8f8;
+  font-size: 1rem;
+  border: 1.6px solid #00e8f8;
+  border-radius: 100%;
+  padding: 0.45rem;
+  /*les trois lignes de haut sont pour creer les cercles qui contiennent les icones*/
+  text-align: center;
+  width: 26px;
+  padding: 2%;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .social {
-    margin-top: 20px;
-    flex: 1;
-    border-radius: 100%;
-    /*
+  margin-top: 20px;
+  flex: 1;
+  border-radius: 100%;
+  /*
     flex: 1;
     padding: 20px;
     border: 1px solid #ccc;
@@ -162,49 +146,49 @@ section {
 }
 
 .social a:hover {
-    color: #1F252E;
-    background-color: #00E8F8;
-    box-shadow: 0 0 20px #00E8F8;
-    transition: all .3s ease-in-out;
+  color: #1f252e;
+  background-color: #00e8f8;
+  box-shadow: 0 0 20px #00e8f8;
+  transition: all 0.3s ease-in-out;
 }
 
 .main h1 span:nth-child(1) {
-    font-size: 1.5rem;
-    /*size of span in h1*/
+  font-size: 1.5rem;
+  /*size of span in h1*/
 }
 
 .main h1 span:nth-child(2) {
-    color: #00E8F8;
+  color: #00e8f8;
 }
 
 .images {
-    background-image: url(/img/graph5.png);
-    background-repeat: no-repeat;
-    background-position: 0 -75px;
-    /*les lignes qui suivent place img en face de p, met la lueur en bas de img et reduit img*/
-    -webkit-box-shadow: 0 10px 10px -10px #000000;
-    -moz-box-shadow: 0 10px 10px -10px #000000;
-    box-shadow: 0px 16px 4px -10px #00E8F8;
-    width: 528px;
-    background-size: cover;
+  background-image: url(/img/graph5.png);
+  background-repeat: no-repeat;
+  background-position: 0 -75px;
+  /*les lignes qui suivent place img en face de p, met la lueur en bas de img et reduit img*/
+  -webkit-box-shadow: 0 10px 10px -10px #000000;
+  -moz-box-shadow: 0 10px 10px -10px #000000;
+  box-shadow: 0px 16px 4px -10px #00e8f8;
+  width: 528px;
+  background-size: cover;
 }
 
 /*pour les ecrans de largeur <= 480px*/
 @media only screen and (max-width: 480px) {
-    .menu {
-        display: block;
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: #244D61;
-    }
+  .menu {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #244d61;
+  }
 }
 
 header {
-    padding: 0.7rem 1rem;
-    /*permet de ramener les elements header vers le haut de page*/
-    align-items: center;
-    max-width: 100%;
-    /*prends toute la largeeur de l'ecran*/
+  padding: 0.7rem 1rem;
+  /*permet de ramener les elements header vers le haut de page*/
+  align-items: center;
+  max-width: 100%;
+  /*prends toute la largeeur de l'ecran*/
 }
 
 /*
@@ -220,62 +204,30 @@ nav{
 }
 */
 .detail {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-#click:checked~nav {
-    left: 0%;
-    transition: all 0.3s ease;
+#click:checked ~ nav {
+  left: 0%;
+  transition: all 0.3s ease;
 }
 
 footer {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
 
-/*
- .bigrec {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        padding: 2rem;
-    }
-
-    .rectangle {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 150px;
-        height: 150px;
-        background-color: #00E8F8;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        padding: 1rem;
-        justify-content: space-between;
-    }
-
-    .rectangle span {
-        color: #333;
-        font-size: 14px;
-        margin-top: 10px;
-        text-align: center;
-    }
-*/
-
 .rectangle {
+  display: contents;
+  padding: 1rem;
+  height: 30px;
+  width: 70px;
+  background-color: #00e8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
 
-
-    display: contents;
-    padding: 1rem;
-    height: 30px;
-    width: 70px;
-    background-color: #00E8F8;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 20px;
-
-    /*
+  /*
     display: inline-block;
     padding: 10px 15px;
     flex-direction: column;
@@ -309,58 +261,42 @@ footer {
 }
 
 .rectangle span {
-    color: #333;
-    font-size: 14px;
+  color: #333;
+  font-size: 14px;
 }
 
 .bigrec {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px 95px;
-    background-color: transparent;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    position: relative;
-    top: 30px;
-    left: 20px;
-    box-shadow: 0 0 20px #00E8F8;
-    transition: all .3s ease-in-out;
-    margin: 2rem;
-    width: 400px;
-    height: 100px;
-
-    /*
-    padding: 30px 95px;
-    background-color: #00E8F8;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    background-color: transparent;
-    position: relative;
-    top: 30px;
-    left: 20px;
-    box-shadow: 0 0 20px #00E8F8;
-    transition: all .3s ease-in-out;
-    margin: 2rem 20rem;
-    display: inline-block;
-    */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 95px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+  box-shadow: 0 0 20px #00e8f8;
+  transition: all 0.3s ease-in-out;
+  margin: 2rem;
+  width: 400px;
+  height: 100px;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
 #title_skills {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 #title_skills h2 {
-    text-align: center;
-    color: #fff;
-    padding: 1rem;
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
 }
-
+/*
 .column {
     flex: 1;
     padding: 20px;
@@ -372,335 +308,305 @@ footer {
     text-align: center;
     box-shadow: 0 0 5px #00E8F8;
     transition: all .3s ease-in-out;
-
-}
-
-
-.column h2 {
-    margin-top: 0;
-    color: #fff;
-    font-size: .99rem;
-    font-weight: 800;
-    letter-spacing: 6px;
-    text-align: center;
-    padding: 20px;
-}
-
-.column p {
-    margin-top: 1rem;
-    /*descend*/
-    font-size: .98rem;
-    color: #fff;
-}
-
-
-.Languages {
-    color: #00E8F8;
-}
-
-#ts {
-    color: #00E8F8;
-}
-
-.tools {
-    color: #00E8F8;
-}
-
-.column ul {
-    list-style-type: none;
-    padding: 0;
-    color: #fff;
-}
-
-.column li {
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-.column a {
-    color: #00E8F8;
-    font-size: 1rem;
-    border: 1.6px solid #00E8F8;
-    border-radius: 100%;
-    padding: .45rem;
-    /*les trois lignes de haut sont pour creer les cercles qui contiennent les icones*/
-    text-align: center;
-    width: 26px;
-    padding: 2%;
-    margin-right: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.column a:hover {
-    color: #1F252E;
-    background-color: #00E8F8;
-    box-shadow: 0 0 20px #00E8F8;
-    transition: all .3s ease-in-out;
-}
-
-.contain h1 {
-    text-align: center;
-    color: #fff;
-    padding: 1rem;
-}
-
-.contain h2 {
-    /*descend*/
-    font-weight: 400;
-    font-size: large;
-    letter-spacing: 1px;
-    color: #fff;
-    margin-left: 15 0px;
-    padding: 10px;
-    margin-left: 170px;
-
-}
-
-.contain {
-    justify-content: center;
-}
-
-#project1 {
-    background-image: url('dev4.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-    cursor: pointer;
-    /*filter: blur(1px);*/
-    width: 300px;
-    height: 150px;
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 5px #00E8F8;
-    transition: all .3s ease-in-out;
-}
-
-#project1:hover {
-    background-color: white;
-    color: black;
-}
-
-#project2 {
-    background-image: url('mitm1.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-    cursor: pointer;
-    width: 300px;
-    height: 150px;
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 5px #00E8F8;
-    transition: all .3s ease-in-out;
-
-}
-
-#project2:hover {
-    background-color: white;
-    color: black;
-}
-#project3 {
-    background-image: url('dev2.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-    cursor: pointer;
-    width: 300px;
-    height: 150px;
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 5px #00E8F8;
-    transition: all .3s ease-in-out;
-
-}
-
-#project4 {
-    background-image: url('mitm3.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-    cursor: pointer;
-    width: 300px;
-    height: 150px;
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 5px #00E8F8;
-    transition: all .3s ease-in-out;
-
-}
-
-#project5 {
-    background-image: url('dev4.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-    cursor: pointer;
-    width: 300px;
-    height: 150px;
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 5px #00E8F8;
-    transition: all .3s ease-in-out;
-
-}
-
-#project6 {
-    background-image: url('mitm5.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-    cursor: pointer;
-    width: 300px;
-    height: 150px;
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 5px #00E8F8;
-    transition: all .3s ease-in-out;
-
-}
-
-.listproject {
-    display: block;
-    margin-top: 20px;
-}
-
-.list1 {
-    display: flex;
-}
-
-.list2 {
-    display: flex;
-}
-#slider {
-    max-height: 100vh;
-    overflow: hidden;
-}
-
-#slider img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-#slider h2 {
-    position: absolute;
-    font-size: 30px;
-    color: #f1f1f1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#slider button:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    border-radius: 50%;
-    opacity: 0;
-    pointer-events: none;
-    border: 2px solid #ff0000;
-    animation: pulse 2s linear infinite;
-}
-
-#slider button {
-    position: absolute;
-    top: 115%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 30px;
-
-}
-@keyframes pulse {
-    0% {
-        opacity: 0;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 1;
-        transform: scale(1.5);
-    }
-
-    100% {
-        opacity: 0;
-        transform: scale(1);
-    }
-}
-/*
-section {
-    margin: 1rem 1.5rem; //permet a section d'etre etendu sur la largeur de l'ecran 
 }
 */
 
-/*
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px #00e8f8;
+  transition: all 0.3s ease-in-out;
+  opacity: 0; /* Ajoutez cette ligne pour masquer les éléments */
+  pointer-events: none; /* Ajoutez cette ligne pour désactiver les interactions avec les éléments*/
+}
+.container .column {
+  transform: translateX(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+.container.active .column {
+  transform: translateX(0%);
+  opacity: 1;
+  pointer-events: auto; /*Ajoutez cette ligne pour réactiver les interactions avec les éléments */
+}
 
-.container {
-    display: flex;
+.column h2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 0.99rem;
+  font-weight: 800;
+  letter-spacing: 6px;
+  text-align: center;
+  padding: 20px;
+}
+
+.column p {
+  margin-top: 1rem;
+  /*descend*/
+  font-size: 0.98rem;
+  color: #fff;
+}
+
+.Languages {
+  color: #00e8f8;
+}
+
+#tools_dev {
+  color: #00e8f8;
+}
+
+#tools_soc {
+  color: #00e8f8;
+}
+
+#tools_design {
+  color: #00e8f8;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+  color: #fff;
+}
+
+.column li {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.column a {
+  color: #00e8f8;
+  font-size: 1rem;
+  border: 1.6px solid #00e8f8;
+  border-radius: 100%;
+  padding: 0.45rem;
+  /*les trois lignes de haut sont pour creer les cercles qui contiennent les icones*/
+  text-align: center;
+  width: 26px;
+  padding: 2%;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.column a:hover {
+  color: #1f252e;
+  background-color: #00e8f8;
+  box-shadow: 0 0 20px #00e8f8;
+  transition: all 0.3s ease-in-out;
+}
+
+.contain h1 {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+.contain h2 {
+  /*descend*/
+  font-weight: 400;
+  font-size: large;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-left: 15 0px;
+  padding: 10px;
+  margin-left: 170px;
+}
+
+.contain {
+  justify-content: center;
+}
+
+#project1 {
+  background-image: url("dev4.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+  /*filter: blur(1px);*/
+  width: 300px;
+  height: 150px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px #00e8f8;
+  transition: all 0.3s ease-in-out;
+}
+
+#project1:hover {
+  background-color: white;
+  color: black;
+}
+
+#project2 {
+  background-image: url("mitm1.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+  width: 300px;
+  height: 150px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px #00e8f8;
+  transition: all 0.3s ease-in-out;
+}
+
+#project2:hover {
+  background-color: white;
+  color: black;
+}
+#project3 {
+  background-image: url("dev2.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+  width: 300px;
+  height: 150px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px #00e8f8;
+  transition: all 0.3s ease-in-out;
+}
+
+#project4 {
+  background-image: url("mitm3.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+  width: 300px;
+  height: 150px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px #00e8f8;
+  transition: all 0.3s ease-in-out;
+}
+
+#project5 {
+  background-image: url("dev4.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+  width: 300px;
+  height: 150px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px #00e8f8;
+  transition: all 0.3s ease-in-out;
+}
+
+#project6 {
+  background-image: url("mitm5.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  cursor: pointer;
+  width: 300px;
+  height: 150px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 5px #00e8f8;
+  transition: all 0.3s ease-in-out;
+}
+
+.listproject {
+  display: block;
+  margin-top: 20px;
+}
+
+.list1 {
+  display: flex;
+}
+
+.list2 {
+  display: flex;
+}
+#slider {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+#slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#slider h2 {
+  position: absolute;
+  font-size: 30px;
+  color: #f1f1f1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#slider button {
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
+}
+#slider button:hover {
+  animation: pulse 2s linear infinite;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
   }
-  
-  .column {
-    flex: 1;
-    padding: 20px;
-    margin: 10px;
-    border-right: 1px solid #ccc;
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
   }
-  
-  .column:last-child {
-    border-right: none;
+  100% {
+    transform: translate(-50%, -50%) scale(1);
   }
-  
-  .column h2 {
-    margin-top: 0;
-  }
-  
-  .column ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .column li {
-    margin-bottom: 10px;
-  }
-  */
+}

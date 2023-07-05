@@ -1,3 +1,13 @@
+
+const container = document.querySelector('.container');
+window.addEventListener('scroll', () => {
+  const { scrollTop, clientHeight } = document.documentElement;
+  const topContainer = container.getBoundingClientRect().top;
+   if (scrollTop > (scrollTop + topContainer).toFixed() - 2 || topContainer < clientHeight - 200) {
+    container.classList.add('active');
+  }
+});
+
 /*
 // Fonction pour ajouter les éléments au survol
 console.log("Ok");
@@ -42,27 +52,4 @@ document.getElementById("project6").addEventListener("mouseenter", function() {
   addHoverElements("project6");
 });
 console.log("Ok");
-*/
-/*
-// Fonction pour vérifier si un élément est visible dans la fenêtre
-function isElementInViewport(element) {
-  var rect = element.getBoundingClientRect();
-  return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
-// Fonction pour animer les éléments lorsqu'ils sont visibles dans la fenêtre
-function animateElements() {
-  var columns = document.querySelectorAll('.animate-left');
-  columns.forEach(function(column) {
-      if (isElementInViewport(column)) {
-          column.classList.add('animate');
-      }
-  });
-}
-// Événement de défilement pour déclencher l'animation
-window.addEventListener('scroll', animateElements);
 */

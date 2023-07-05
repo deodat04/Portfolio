@@ -1,5 +1,3 @@
-<!---Log-in-->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,13 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
-   
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
-            <?php include_once('header.php') ; ?>
+        <?php include_once('header.php'); ?>
     </header>
 
     <section>
@@ -51,7 +49,7 @@
             <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
             <p class="Languages">Languages I speak:</p>
             <p>HTML, Pug, Slim, CSS, Sass, Git</p>
-            <p class="tools">Dev Tools:</p>
+            <p id="tools_dev">Dev Tools:</p>
             <ul>
                 <li>Atom</li>
                 <li>Bitbucket</li>
@@ -71,7 +69,7 @@
             <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
             <p class="Languages">Languages I speak:</p>
             <p>HTML, Pug, Slim, CSS, Sass, Git</p>
-            <p class="tools">Dev Tools:</p>
+            <p id="tools_soc">Analyste SOC Tools:</p>
             <ul>
                 <li>Atom</li>
                 <li>Bitbucket</li>
@@ -91,7 +89,7 @@
             <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
             <p class="Languages">Languages I speak:</p>
             <p>HTML, Pug, Slim, CSS, Sass, Git</p>
-            <p id="ts">Dev Tools:</p>
+            <p id="tools_design">Designer Tools:</p>
             <ul>
                 <li>Atom</li>
                 <li>Bitbucket</li>
@@ -152,15 +150,12 @@
             </div>
     </section>
 
-        <script type="module" src="./script.js"></script>
-        <script src="project.js"></script>
+    <script src="script.js"></script>
+    <script src="project.js"></script>
 </body>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 </style>
-<!-- <style>
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
-  </style> -->
 <br>
 <br>
 <br>
@@ -169,7 +164,7 @@
 <br>
 <br>
 <footer>
-    <?php include_once('footer.php') ; ?>
+    <?php include_once('footer.php'); ?>
 </footer>
 
 </html>

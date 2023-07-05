@@ -16,22 +16,22 @@
         <?php include_once('header.php'); ?>
     </header>
     <section>
-    <div id="slider">
-        <h2>@deodat04, vous souhaite la Bienvenue dans son univers</h2>
-        <img src="mitm2.jpg" alt="">
-        <img src="mitm3.jpg" alt="">
-        <img src="dev4.jpg" alt="">
-        <img src="mitm2.jpg" alt="">
-        <a href="button.html" class="slider-button">Bouton</a>
-        <button type="button">Créer votre univers</button>
-    </div>
+        <div id="slider">
+            <h2>@deodat04, vous souhaite la Bienvenue dans son univers</h2>
+            <img src="dev3.jpg" alt="img1">
+            <img src="mitm3.jpg" alt="img2">
+            <img src="mitm4.jpg" alt="img3">
+            <img src="dev4.jpg" alt="img4">
+            <a href="button.html" class="slider-button">Bouton</a>
+            <button type="button">Créer votre univers</button>
+        </div>
     </section>
 
-   
-    <script src="project.js" ></script>
+
+    <script src="project.js"></script>
 </body>
 <footer>
-        <?php include_once('footer.php'); ?>
-    </footer>
+    <?php include_once('footer.php'); ?>
+</footer>
 
 </html>
