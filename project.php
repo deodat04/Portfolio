@@ -18,10 +18,10 @@
     <section>
         <div id="slider">
             <h2>@deodat04, vous souhaite la Bienvenue dans son univers</h2>
-            <img src="dev3.jpg" alt="img1">
-            <img src="mitm3.jpg" alt="img2">
-            <img src="mitm4.jpg" alt="img3">
-            <img src="dev4.jpg" alt="img4">
+            <img src="images/dev3.jpg" alt="img1">
+            <img src="images/mitm3.jpg" alt="img2">
+            <img src="images/mitm4.jpg" alt="img3">
+            <img src="images/dev4.jpg" alt="img4">
             <a href="button.html" class="slider-button">Bouton</a>
             <button type="button">Créer votre univers</button>
         </div>

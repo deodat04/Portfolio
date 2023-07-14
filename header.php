@@ -1,5 +1,5 @@
 <div class="logo">
-    <img src="logo.jpg" alt="@deodat04">
+    <img src="images/logo.jpg" alt="@deodat04">
 </div>
 <input type="checkbox" id="click">
 <label for="click" class="mainicon">
@@ -12,5 +12,5 @@
     <a href="#">About</a>
     <a href="project.php">Project</a>
     <a href="#">Portfolio</a>
-    <a href="#">Contact</a>
+    <a href="Contact.php">Contact</a>
 </nav>

@@ -25,12 +25,12 @@
                 <div class="social">
                     <a href="https://github.com/deodat04"><i class="bi bi-github"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="http://linkedin.com/in/déodat-adandedjan-4b2672241"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-facebook"></i></a>
                 </div>
             </div>
             <div class="images">
-                <img src="mitm2.jpg" alt="" width="100%">
+                <img src="images/mitm2.jpg" alt="" width="100%">
             </div>
         </div>
     </section>
@@ -44,69 +44,71 @@
 
     <div class="container">
         <div class="column">
-            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-code-slash"></i></a>
             <h2>Fullstack Developer</h2>
-            <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-            <p class="Languages">Languages I speak:</p>
-            <p>HTML, Pug, Slim, CSS, Sass, Git</p>
+            <p>Je suis un programmeur multi-language et je travaille sur plusieurs projets de développemnt logiciel.</p>
+            <p class="Languages">Languages de programmation:</p>
+            <p>HTML & CSS, Php, Java, Python, C & C++, MySQL, JavaScript</p>
             <p id="tools_dev">Dev Tools:</p>
             <ul>
-                <li>Atom</li>
-                <li>Bitbucket</li>
+                <li>VsCode</li>
+                <li>WordPress</li>
                 <li>Bootstrap</li>
-                <li>Bulma</li>
-                <li>Codekit</li>
+                <li>Postman</li>
+                <li>Spring Boot</li>
                 <li>Github</li>
-                <li>Surge</li>
+                <li>Odoo</li>
                 <li>Terminal</li>
-                <li>Vercel</li>
+                <li>VirtualBox</li>
             </ul>
         </div>
 
         <div class="column">
-            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-shield-lock"></i></a>
             <h2>Analyste SOC</h2>
-            <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-            <p class="Languages">Languages I speak:</p>
-            <p>HTML, Pug, Slim, CSS, Sass, Git</p>
+            <p>La sécurité informatique est un domaine que j'explore,également. J'ai acquis plusieurs certifications dans ce secteur.</p>
+            <p class="Languages">Certifications:</p>
+            <p>Badge fundamentals of cybersecurity(IBM), NSE1, NSE2</p>
             <p id="tools_soc">Analyste SOC Tools:</p>
             <ul>
-                <li>Atom</li>
-                <li>Bitbucket</li>
-                <li>Bootstrap</li>
-                <li>Bulma</li>
-                <li>Codekit</li>
+                <li>Unbuntu</li>
+                <li>Kali Linux</li>
+                <li>Centos</li>
+                <li>Administration linux</li>
+                <li>Slack</li>
                 <li>Github</li>
-                <li>Surge</li>
                 <li>Terminal</li>
-                <li>Vercel</li>
+                <li>Shell Bash</li>
+                <li>Installation systeme</li>
             </ul>
         </div>
 
         <div class="column ">
-            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-palette"></i></a>
             <h2>Designer</h2>
-            <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-            <p class="Languages">Languages I speak:</p>
-            <p>HTML, Pug, Slim, CSS, Sass, Git</p>
+            <p>Le graphisme fait partie aussi des cordes à mon arc. Je suis certifié graphiste et je continue de travailler sur cette discpline pour m'améliorer.</p>
+            <p class="Languages">Quelques réalisations:</p>
+            <p>Visuels destinés au Web et au print, Badges, Carte de visite, Invitations</p>
             <p id="tools_design">Designer Tools:</p>
             <ul>
-                <li>Atom</li>
-                <li>Bitbucket</li>
-                <li>Bootstrap</li>
-                <li>Bulma</li>
-                <li>Codekit</li>
-                <li>Github</li>
-                <li>Surge</li>
-                <li>Terminal</li>
-                <li>Vercel</li>
+                <li>Illustrator</li>
+                <li>Photoshop</li>
+                <li>Xd</li>
+                <li>SketchUp</li>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
             </ul>
         </div>
     </div>
     <section class="my work">
         <div class="contain">
-            <h1 class="work">My Recent Work</h1>
-            <h2>Here are a few past design projects I've worked on. Want to see more? <a class="has-text-weight-normal"
+            <h1 class="work">Mes travaux récents</h1>
+            <h2>Quelques projets sur lesquels j'ai eu à travaillé. Vous désirez en savoir plus? <a class="has-text-weight-normal"
                     href="mailto:deodatadandedjan2000@gmail.com">Email me</a>.</h2>
 
             <div class="myproject">

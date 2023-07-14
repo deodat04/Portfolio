@@ -417,6 +417,7 @@ footer {
   margin-left: 15 0px;
   padding: 10px;
   margin-left: 170px;
+  text-align: center;
 }
 
 .contain {
@@ -424,7 +425,7 @@ footer {
 }
 
 #project1 {
-  background-image: url("dev4.jpg");
+  background-image: url("images/dev4.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.5;
@@ -450,7 +451,7 @@ footer {
 }
 
 #project2 {
-  background-image: url("mitm1.jpg");
+  background-image: url("images/mitm1.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.5;
@@ -474,7 +475,7 @@ footer {
   color: black;
 }
 #project3 {
-  background-image: url("dev2.jpg");
+  background-image: url("images/dev2.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.5;
@@ -494,7 +495,7 @@ footer {
 }
 
 #project4 {
-  background-image: url("mitm3.jpg");
+  background-image: url("images/mitm3.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.5;
@@ -514,7 +515,7 @@ footer {
 }
 
 #project5 {
-  background-image: url("dev4.jpg");
+  background-image: url("images/dev4.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.5;
@@ -534,7 +535,7 @@ footer {
 }
 
 #project6 {
-  background-image: url("mitm5.jpg");
+  background-image: url("images/mitm5.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.5;
@@ -610,3 +611,62 @@ footer {
     transform: translate(-50%, -50%) scale(1);
   }
 }
+/*
+.container {
+  width: 80%;
+  margin: auto;
+}
+.heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form input[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.col-md-6 {
+  display: inline-block;
+  width: 45%;
+  margin: 2.5%;
+  vertical-align: top;
+}
+.img-fluid {
+  width: 50px;
+  height: 90px;
+}
+
+.col-md-6 {
+  display: inline-block;
+  width: 45%;
+  margin: 2.5%;
+  vertical-align: top;
+  margin-top: 20px;
+}
+*/
