@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style_contactform/bootstrap.min.css">
     <!-- Style -->
     <link rel="stylesheet" href="style_contactform/style.css">
-    <title>Contact</title>
+    <title>Contact | deodat04</title>
 </head>
 
 <body>

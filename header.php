@@ -9,8 +9,8 @@
 </label>
 <nav>
     <a href="accueil.php" class="active">Home</a>
-    <a href="#">About</a>
+    <a href="about.php">About</a>
     <a href="project.php">Project</a>
-    <a href="#">Portfolio</a>
+    <a href="portfolio.php">Portfolio</a>
     <a href="Contact.php">Contact</a>
 </nav>

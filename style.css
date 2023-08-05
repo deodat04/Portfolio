@@ -423,149 +423,6 @@ footer {
 .contain {
   justify-content: center;
 }
-
-#project1 {
-  background-image: url("images/dev4.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
-  cursor: pointer;
-  /*filter: blur(1px);*/
-  width: 300px;
-  height: 150px;
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 0 5px #00e8f8;
-  transition: all 0.3s ease-in-out;
-}
-
-#project1:hover {
-  background-color: white;
-  color: black;
-}
-
-#project2 {
-  background-image: url("images/mitm1.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
-  cursor: pointer;
-  width: 300px;
-  height: 150px;
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 0 5px #00e8f8;
-  transition: all 0.3s ease-in-out;
-}
-
-#project2:hover {
-  background-color: white;
-  color: black;
-}
-#project3 {
-  background-image: url("images/dev2.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
-  cursor: pointer;
-  width: 300px;
-  height: 150px;
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 0 5px #00e8f8;
-  transition: all 0.3s ease-in-out;
-}
-
-#project4 {
-  background-image: url("images/mitm3.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
-  cursor: pointer;
-  width: 300px;
-  height: 150px;
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 0 5px #00e8f8;
-  transition: all 0.3s ease-in-out;
-}
-
-#project5 {
-  background-image: url("images/dev4.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
-  cursor: pointer;
-  width: 300px;
-  height: 150px;
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 0 5px #00e8f8;
-  transition: all 0.3s ease-in-out;
-}
-
-#project6 {
-  background-image: url("images/mitm5.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
-  cursor: pointer;
-  width: 300px;
-  height: 150px;
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 0 5px #00e8f8;
-  transition: all 0.3s ease-in-out;
-}
-
-.listproject {
-  display: block;
-  margin-top: 20px;
-}
-
-.list1 {
-  display: flex;
-}
-
-.list2 {
-  display: flex;
-}
 #slider {
   max-height: 100vh;
   overflow: hidden;
@@ -611,6 +468,9 @@ footer {
     transform: translate(-50%, -50%) scale(1);
   }
 }
+
+
+
 /*
 .container {
   width: 80%;
@@ -668,5 +528,93 @@ form input[type="submit"] {
   margin: 2.5%;
   vertical-align: top;
   margin-top: 20px;
+}
+*/
+
+/*
+.cont{
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-items: center;
+ margin: 0 auto;
+}
+
+.border{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.border:hover{
+  border: 1px solid #fff;
+}
+
+.card0{
+  background-image: url("/images/mitm1.jpg");
+}
+.card1{
+  background-image: url("/images/mitm2.jpg");
+}
+.card2{
+  background-image: url("/images/mitm5.jpg");
+}
+.card3{
+  background-image: url("/images/mitm2.jpg");
+}
+.card4{
+  background-image: url("/images/dev3.jpg");
+}
+.card5{
+  background-image: url("/images/dev1.jpg");
+}
+h2{
+  font-family: 'Helvetica Neue',
+  Helvetica, Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+h3{
+  font-family: 'Helvetica Neue',
+  Helvetica, Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.card i{
+  opacity: 0;
+  transition: opacity 1s;
+  }
+
+  .icons{
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  }
+.card:hover h2, .card:hover h3, .card:hover i {
+  opacity: 1;
+}
+h2, h3, i {
+  transition: opacity 1s;
 }
 */

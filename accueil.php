@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <title>Home | deodat04</title>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
 </head>
@@ -39,7 +41,7 @@
     <br>
 
     <div id="title_skills">
-        <h2>@deodat04 skills</h2>
+    <h1 class="sub-title" style="text-align:center; color: #fff;">@deodat04 Skills</h1>
     </div>
 
     <div class="container">
@@ -105,61 +107,105 @@
             </ul>
         </div>
     </div>
-    <section class="my work">
-        <div class="contain">
-            <h1 class="work">Mes travaux récents</h1>
-            <h2>Quelques projets sur lesquels j'ai eu à travaillé. Vous désirez en savoir plus? <a class="has-text-weight-normal"
-                    href="mailto:deodatadandedjan2000@gmail.com">Email me</a>.</h2>
 
-            <div class="myproject">
-                <div class="listproject">
-                    <div class="list1">
-                        <div id="project1">
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <h1>Application | C++</h1>
-                        </div>
-                        <div id="project2">
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <h1>Design | Web Print</h1>
+ <!-- ----------SERVICES---------- -->
+ <div id="services">
+        <div class="containeur">
+            <h1 class="sub-title" style="text-align:center; color: #fff;">Mes Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2 style="color:#fff;">App Development</h2>
+                    <p style="color:#fff;">Développement d'application desktop en fonction des fonctionnalités demandés. <br> Framework : Qt Creator <br> Languages : C++.</p>
+                    <!-- <a href="#">Learn more</a>-->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2 style="color:#fff;">Web Development</h2>
+                    <p style="color:#fff;"> Développement d'application web, de site web vitrine, de portfolio, etc.</p>
+                    
 
-                        </div>
-                        <div id="project3">
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <h1>Python | turtle</h1>
-                            <br>
+                </div>
+                
+                <div>
 
-                        </div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2 style="color:#fff;">UI/UX Design</h2>
+                    <p style="color:#fff;">Développement d'interface d'application web, mobile, de maquette d'application.<br>Réalisations de visuels destinés au web et au print(affiches, logo, flyers et beaucoup d'autres).</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="containeur">
+            <h1 class="sub-title"  style="color:#fff; text-align: center;">Mes travaux récents</h1> <br>
+            <h3  style="color:#fff; text-align: center;" >Quelques projets sur lesquels j'ai eu à travaillé. Vous désirez en savoir plus?  <a class="has-text-weight-normal"
+                    href="mailto:deodatadandedjan2000@gmail.com"> Email me</a></h3>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/dev1.jpg" alt="">
+                    <div class="layer">
+                        <h2>Application C++</h2>
+                        <p>With framework Qt</p>
+                        <a href="https://github.com/deodat04"><i class="fas fa-external-link-alt"></i></a>
                     </div>
-
-                    <div class="list2">
-                        <div id="project4">
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <h1>Maquette Application</h1>
-
-                        </div>
-                        <div id="project5">
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <h1>Interface Web</h1>
-
-                        </div>
-                        <div id="project6">
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <h1>Certification | Cybersecurity</h1>
-
-                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/mitm2.jpg" alt="">
+                    <div class="layer">
+                        <h2>API CRUD</h2>
+                        <p>Java languages</p>
+                        <a href="https://github.com/deodat04"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/dev3.jpg" alt="">
+                    <div class="layer">
+                        <h2>Maquette App mobile</h2>
+                        <p>With Adobe Xd</p>
+                        <a href="https://github.com/deodat04"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
-    </section>
+            <a href="project.php" class="btn">See more</a>
+        </div>
+    </div>
 
     <script src="script.js"></script>
     <script src="project.js"></script>
+    
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
 </body>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 </style>
-<br>
-<br>
 <br>
 <br>
 <br>
