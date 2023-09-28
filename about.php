@@ -58,6 +58,7 @@
                         <ul>
                             <li><span>Juillet 2023</span><br> 2ème annnée de license en Génie Logiciel à l'IFRI
                                 (Institut de Formation et de Recherche en Informatique)</li>
+                                <li><span>Août 2023</span><br> NSE 3 Network Security Associate by Fortinet </li>
                             <li><span>Juillet 2023</span><br> NSE 2 Network Security Associate by Fortinet </li>
                             <li><span>Juin 2023</span><br> NSE 1 Network Security Associate by Fortinet </li>
                             <li><span>Juin 2023</span><br> Badge Cybersecurity Fundamentals by IBM, ITExperience INC
