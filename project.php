@@ -27,7 +27,7 @@
             <img src="images/mitm4.jpg" alt="img3">
             <img src="images/dev4.jpg" alt="img4">
             <a href="button.html" class="slider-button">Bouton</a>
-            <button type="button">Créer votre univers</button>
+            <a href="contact.php"><button type="button">Créer votre univers</button></a>
         </div>
     </section>
     <br>
@@ -35,99 +35,66 @@
     <br>
     <div class="presentation">
         <div class="design">
-            <h4> Design Graphics <br> <br> <span style="font-size :1rem; letter-spacing: 0.5rem;color:#fff;"> Découvrez
+            <h4> Logos et visuels <br> <br> <span style="font-size :1rem; letter-spacing: 0.5rem;color:#fff;"> Découvrez
                     mes récents projets réalisés </span> </h4>
             <br>
             <div class="gallery">
                 <img src="images/logo_communication.png" alt="Affiche 1">
                 <img src="images/Doc.png" alt="Affiche 2">
                 <img src="images/Corporation.png" alt="Affiche 3">
+                <img src="images/Img.jpg" alt="Affiche 4">
+                <img src="images/session.png" alt="Affiche 5">
+                <img src="images/graphisme.png" alt="Affiche 6">
+                <img src="images/10CDLJ.png" alt="Affiche 7">
+                <img src="images/Badge.png" alt="Affiche 8">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="design">
+            <h4> Site web / Maquette <br> <br> <span style="font-size :1rem; letter-spacing: 0.5rem;color:#fff;">
+                    Découvrez
+                    mes récents projets réalisés </span> </h4>
+            <br>
+            <div class="gallery">
+                <img src="images/Portfolio.png" alt="Affiche 1">
+                <img src="images/Portfolio_view.png" alt="Affiche 2">
+                <img src="images/Portfolio_@deodat04.png" alt="Affiche 3">
+                <img src="images/portfolio_@deodat04view.png" alt="Affiche 4">
+                <img src="images/ecommerce.png" alt="Affiche 5">
+                <img src="images/ecommerce_view.png" alt="Affiche 6">
+                <img src="images/sportiva.png" alt="Affiche 7">
+                <img src="images/sportiva_view.png" alt="Affiche 8">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="design">
+            <h4> Cybersecurity Certifications <br> <br> <span
+                    style="font-size :1rem; letter-spacing: 0.5rem;color:#fff;"> Découvrez
+                    mes certificats en cybersecurité </span> </h4>
+            <br>
+            <div class="work-list">
+                <div class="certif">
+                    <a href="https://training.fortinet.com/mod/customcert/verify_certificate.php?id=ktAE1Wewu1">
+                        <img src="images/NSE1.png" alt="" style="max-width: 70%;">
+                    </a>
+                </div>
+                <div class="certif">
+                    <a href="https://training.fortinet.com/mod/customcert/verify_certificate.php?id=l3VkWhZRmT">
+                        <img src="images/NSE2.png" alt="" style="max-width: 70%;">
+                    </a>
+
+                </div>
+                <div class="certif">
+                    <a href="https://training.fortinet.com/mod/customcert/verify_certificate.php?id=sY7us3u6Ca">
+                        <img src="images/NSE3.png" alt="" style="max-width: 70%;">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-
-    <!-- <div class="cont">
-        <div class="card card0">
-            <div class="border">
-                <h2> Donald Trump</h2>
-                <h3>USA</h3>
-                <div class="icons">
-                    <i class = "fa-brands fa-instagram"></i>
-                    <i class = "fa-brands fa-wikipedia"></i>
-                    <i class = "fa-brands fa-reddit-alien"></i>
-                    <i class = "fa-solid fa-podcast"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="card card1">
-            <div class="border">
-                <h2>Andrew Carnegie</h2>
-                <h3>USA</h3>
-                <div class="icons">
-                    <i class = "fa-brands fa-instagram"></i>
-                    <i class = "fa-brands fa-wikipedia"></i>
-                    <i class = "fa-brands fa-reddit-alien"></i>
-                    <i class = "fa-solid fa-podcast"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="card card2">
-            <div class="border">
-                <h2></h2>
-                <h3>USA</h3>
-                <div class="icons">
-                    <i class = "fa-brands fa-instagram"></i>
-                    <i class = "fa-brands fa-wikipedia"></i>
-                    <i class = "fa-brands fa-reddit-alien"></i>
-                    <i class = "fa-solid fa-podcast"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="card card3">
-            <div class="border">
-                <h2> Donald Trump</h2>
-                <h3>USA</h3>
-                <div class="icons">
-                    <i class = "fa-brands fa-instagram"></i>
-                    <i class = "fa-brands fa-wikipedia"></i>
-                    <i class = "fa-brands fa-reddit-alien"></i>
-                    <i class = "fa-solid fa-podcast"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="card card4">
-            <div class="border">
-                <h2>Yuri Gagarin</h2>
-                <h3>USA</h3>
-                <div class="icons">
-                    <i class = "fa-brands fa-instagram"></i>
-                    <i class = "fa-brands fa-wikipedia"></i>
-                    <i class = "fa-brands fa-reddit-alien"></i>
-                    <i class = "fa-solid fa-podcast"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="card card5">
-            <div class="border">
-                <h2>Thomas Edison</h2>
-                <h3>USA</h3>
-                <div class="icons">
-                    <i class = "fa-brands fa-instagram"></i>
-                    <i class = "fa-brands fa-wikipedia"></i>
-                    <i class = "fa-brands fa-reddit-alien"></i>
-                    <i class = "fa-solid fa-podcast"></i>
-                </div>
-            </div>
-        </div>
-
-    </div>-->
-
-
+   
 
     <script src="project.js"></script>
 </body>

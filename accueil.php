@@ -70,7 +70,7 @@
             <h2>Analyste SOC</h2>
             <p>La sécurité informatique est un domaine que j'explore,également. J'ai acquis plusieurs certifications dans ce secteur.</p>
             <p class="Languages">Certifications:</p>
-            <p>Badge fundamentals of cybersecurity(IBM), NSE1, NSE2</p>
+            <p>Badge fundamentals of cybersecurity(IBM), NSE1, NSE2, NSE3</p>
             <p id="tools_soc">Analyste SOC Tools:</p>
             <ul>
                 <li>Unbuntu</li>
