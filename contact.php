@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_contactform/icon.css">
     <!-- Bootstrap CSS -->
@@ -29,7 +30,7 @@
                     <div class="row justify-content-center">
                         <div class="col-md-6">
 
-                            <h3 class="heading mb-4">Parlons de tout!</h3>
+                            <h3 class="heading mb-4" style="color:#00E8F8;">Parlons de tout!</h3>
                             <p style="color:white;">Projet, opportunités, collaboration ou autres motifs? <br> <span style="font-weight: bold;" > Contactez-moi ! </span></p>
 
                             <p><img src="images/undraw-contact.svg" alt="Image" class="img-fluid"></p>

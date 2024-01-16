@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="project.css">
@@ -30,8 +31,8 @@
                         touche à l'innovation, à la technologie et aux sciences informatiques. Très vite après
                         l'obtention de mon Baccalauréat série scientifique, j'ai commencé mes recherches dans cet
                         univers si captivant. J'ai dès lors entamé mes études à l'Institut de Formation et de Recherche
-                        en Informatique (IFRI) en spécialité de Génie Logiciel. Actuellement en fin de 2ème année de
-                        licence, j'ai pu apprendre énormément et développer plusieurs compétences. Cela ne m'a pas
+                        en Informatique (IFRI) en spécialité de Génie Logiciel. Actuellement en 3ème année de
+                        Licence, j'ai pu apprendre énormément et développer plusieurs compétences. Cela ne m'a pas
                         empêché de suivre des formations dans d'autres branches de l'informatique, telles que le design
                         graphique et la cybersécurité (IBM). Je n'ai pas fini d'apprendre et d'explorer ce grand univers
                         qu'est l'informatique mais avec de la détermination tout est possible. </p>
@@ -51,7 +52,7 @@
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2021 - Current</span><br>UI/UX Design training at ET Institute</li>
+                            <li><span>Août 2023 - Septembre 2023</span><br>Stage Academique à l'Institut Ola Technologie</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">

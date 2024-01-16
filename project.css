@@ -283,6 +283,8 @@ width: 100%;
   left: calc(50% - 30vmin);
   height: 60vmin;
   width: 60vmin;
+  font-weight: 600;
+  color: #fff;
   list-style: none;
   opacity: 0;
 }
@@ -420,3 +422,10 @@ width: 100%;
   opacity: 0;
   animation: showText2 0.5s 1.5s linear forwards;
 }
+
+
+
+
+
+
+
