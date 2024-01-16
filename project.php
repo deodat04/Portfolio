@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sga512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJy7Yy7tcenmpDlypASozpmT/E0iPtmFIB46ZmdAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -35,36 +37,37 @@
     <br>
     <div class="presentation">
         <div class="design">
-            <h4> Logos et visuels <br> <br> <span style="font-size :1rem; letter-spacing: 0.5rem;color:#fff;"> Découvrez
-                    mes récents projets réalisés </span> </h4>
-            <br>
-            <div class="gallery">
-                <img src="images/logo_communication.png" alt="Affiche 1">
-                <img src="images/Doc.png" alt="Affiche 2">
-                <img src="images/Corporation.png" alt="Affiche 3">
-                <img src="images/Img.jpg" alt="Affiche 4">
-                <img src="images/session.png" alt="Affiche 5">
-                <img src="images/graphisme.png" alt="Affiche 6">
-                <img src="images/10CDLJ.png" alt="Affiche 7">
-                <img src="images/Badge.png" alt="Affiche 8">
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="design">
             <h4> Site web / Maquette <br> <br> <span style="font-size :1rem; letter-spacing: 0.5rem;color:#fff;">
                     Découvrez
                     mes récents projets réalisés </span> </h4>
             <br>
-            <div class="gallery">
-                <img src="images/Portfolio.png" alt="Affiche 1">
-                <img src="images/Portfolio_view.png" alt="Affiche 2">
-                <img src="images/Portfolio_@deodat04.png" alt="Affiche 3">
-                <img src="images/portfolio_@deodat04view.png" alt="Affiche 4">
-                <img src="images/ecommerce.png" alt="Affiche 5">
-                <img src="images/ecommerce_view.png" alt="Affiche 6">
-                <img src="images/sportiva.png" alt="Affiche 7">
-                <img src="images/sportiva_view.png" alt="Affiche 8">
+            <div class="container">
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio_@deodat04view.png" alt="">
+                    <div class="layer">
+                        <h2>PORTFOLIO</h2>
+                        <p> HTML | CSS | JS </p>
+                        <a href="https://github.com/deodat04"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ecommerce_view.png" alt="">
+                    <div class="layer">
+                        <h2>MAQUETTE SITE E-COMMERCE</h2>
+                        <p>With Figma</p>
+                        <a href="https://github.com/deodat04"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sportiva_view.png" alt="">
+                    <div class="layer">
+                        <h2>MAQUETTE SITE FITNESS</h2>
+                        <p>With Figma</p>
+                        <a href="https://github.com/deodat04"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
         <br>
@@ -94,7 +97,7 @@
             </div>
         </div>
     </div>
-   
+
 
     <script src="project.js"></script>
 </body>

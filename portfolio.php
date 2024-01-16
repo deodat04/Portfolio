@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="project.css">
@@ -20,15 +22,9 @@
         <div class="main">
             <div class="detail"><!---Sarah -->
                 <h1><span>Hi, It's Me</span> <br> I'm <span style="color:#00E8F8;">@deodat04</span></h1>
-                <p style="font-weight : 600; letter-spacing: 0.2rem;">Fullstack Developer <br> Analyste SOC <br> Design
-                    graphic </p>
+                <a href="images/my_CV.pdf" download="CV_de_Déodat_ADANDEDJAN" class="btn">Télécharger mon CV</a>
 
-                <div class="social">
-                    <a href="https://github.com/deodat04"><i class="bi bi-github"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="http://linkedin.com/in/déodat-adandedjan-4b2672241"><i class="bi bi-linkedin"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                </div>
+               
             </div>
             <div class="images">
                 <img src="images/mitm2.jpg" alt="" width="100%">
@@ -39,8 +35,8 @@
     <br>
     <br>
 
-    <div id="cursor">
-        <ul class='tags-cloud'>
+    <section class="tags-cloud">
+        <ul class='tags-cloud-list'>
             <li class='tag'> <span class='wrap'>HTML</span> </li>
             <li class='tag'> <span class='wrap'>CSS</span> </li>
             <li class='tag'> <span class='wrap'>JavaScript</span> </li>
@@ -65,7 +61,7 @@
             <li class='tag'> <span class='wrap'>Terminal</span> </li>
             <li class='tag'> <span class='wrap'>VirtualBox</span> </li>
         </ul>
-    </div>
+    </section>
 
 <script>
      class FibonacciSphere {
@@ -191,14 +187,6 @@
                 this.#rotationAxis = axis;
                 this.#rotationSpeed = speed;
             }
-
-/*
-            #update() {
-                this.#rotationAngle += 0.01;  // Incrémente l'angle de rotation
-                this.#updatePositions();      // Met à jour les positions
-                requestAnimationFrame(this.#update.bind(this)); // Appelle à nouveau cette méthode
-            }
-            */
             
                 #update() {
                     this.#rotationAngle += this.#rotationSpeed;
@@ -225,21 +213,6 @@
 
                 cloud.start();
             }
-            
-                {
-                    const cursor = document.getElementById('cursor');
-                    const isActivated = false;
-            
-                    document.addEventListener('mousemove', (e) => {
-                        if (!isActivated) {
-                            cursor.classList.add('-activated');
-                        }
-            
-                        cursor.style.transform =
-                            `translateX(${e.clientX}px) translateY(${e.clientY}px)`;
-                    });
-                }
-            
         }
 
         document.addEventListener('DOMContentLoaded', () => {

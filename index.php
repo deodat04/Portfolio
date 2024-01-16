@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="project.css">
@@ -27,7 +29,9 @@
                 <div class="social">
                     <a href="https://github.com/deodat04"><i class="bi bi-github"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="http://linkedin.com/in/déodat-adandedjan-4b2672241"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/d%C3%A9odat-adandedjan-4b2672241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+
+"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-facebook"></i></a>
                 </div>
             </div>
@@ -50,11 +54,12 @@
             <h2>Fullstack Developer</h2>
             <p>Je suis un programmeur multi-language et je travaille sur plusieurs projets de développemnt logiciel.</p>
             <p class="Languages">Languages de programmation:</p>
-            <p>HTML & CSS, Php, Java, Python, C & C++, MySQL, JavaScript</p>
+            <p>HTML & CSS, Php, Java, Python, C & C++, MySQL, JavaScript, React, Dart</p>
             <p id="tools_dev">Dev Tools:</p>
             <ul>
                 <li>VsCode</li>
                 <li>WordPress</li>
+                <li>Flutter</li>
                 <li>Bootstrap</li>
                 <li>Postman</li>
                 <li>Spring Boot</li>
@@ -82,6 +87,7 @@
                 <li>Terminal</li>
                 <li>Shell Bash</li>
                 <li>Installation systeme</li>
+                <br>
             </ul>
         </div>
 
@@ -97,6 +103,7 @@
                 <li>Photoshop</li>
                 <li>Xd</li>
                 <li>SketchUp</li>
+               <br>
                <br>
                <br>
                <br>

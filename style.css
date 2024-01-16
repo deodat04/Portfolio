@@ -27,6 +27,14 @@ header {
   /*ainsi le header a la couleur du background*/
 }
 
+.btn {
+  display: flex;
+  margin-top: 0.3rem;
+  padding: 1rem 3rem;
+  color: #00E8F8;
+  font-size: 1.2rem; /* Ajouter une marge au-dessus du bouton */
+}
+
 .logo {
   font-size: 1.3rem;
   /*augmente la taille de l'element*/
@@ -133,16 +141,7 @@ section {
   margin-top: 20px;
   flex: 1;
   border-radius: 100%;
-  /*
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    */
+ 
 }
 
 .social a:hover {
@@ -191,18 +190,7 @@ header {
   /*prends toute la largeeur de l'ecran*/
 }
 
-/*
-nav{
-   position: absolute;
-    display: grid;
-    top: 75px; 
-    text-align: center;
-    background-color: #1F252E;
-    left: -100%;
-    z-index: 1;
-    width: 100%;
-}
-*/
+
 .detail {
   justify-content: space-between;
 }
@@ -226,38 +214,6 @@ footer {
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 20px;
-
-  /*
-    display: inline-block;
-    padding: 10px 15px;
-    flex-direction: column;
-    
-    width: 60px;
-    background-color: #00E8F8;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    justify-content: space-between;
-    padding: 1rem 1rem;
-    margin-bottom: 10px;
-    
-
-
-    align-items: center;
-    -webkit-animation: wobble 1s ease 10s forwards;
-    animation: wobble 1s ease 10s forwards;
-    -webkit-animation-iteration-count: 3;
-    animation-iteration-count: 3;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    height: 45px;
-    justify-content: center;
-    position: fixed;
-    right: 5rem;
-    top: 15px;
-    width: 60px;
-    z-index: 2000
-    */
 }
 
 .rectangle span {
@@ -296,20 +252,7 @@ footer {
   color: #fff;
   padding: 1rem;
 }
-/*
-.column {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 0 5px #00E8F8;
-    transition: all .3s ease-in-out;
-}
-*/
+
 
 .column {
   flex: 1;
@@ -470,151 +413,3 @@ footer {
 }
 
 
-
-/*
-.container {
-  width: 80%;
-  margin: auto;
-}
-.heading {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-form {
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 5px;
-}
-form input[type="text"],
-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-form input[type="submit"] {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-.col-md-6 {
-  display: inline-block;
-  width: 45%;
-  margin: 2.5%;
-  vertical-align: top;
-}
-.img-fluid {
-  width: 50px;
-  height: 90px;
-}
-
-.col-md-6 {
-  display: inline-block;
-  width: 45%;
-  margin: 2.5%;
-  vertical-align: top;
-  margin-top: 20px;
-}
-*/
-
-/*
-.cont{
-  position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- width: 100%;
- display: flex;
- flex-wrap: wrap;
- justify-content: space-around;
- align-items: center;
- margin: 0 auto;
-}
-
-.border{
-  height: 369px;
-  width: 290px;
-  background: transparent;
-  border-radius: 10px;
-  transition: border 1s;
-  position: relative;
-}
-
-.border:hover{
-  border: 1px solid #fff;
-}
-
-.card0{
-  background-image: url("/images/mitm1.jpg");
-}
-.card1{
-  background-image: url("/images/mitm2.jpg");
-}
-.card2{
-  background-image: url("/images/mitm5.jpg");
-}
-.card3{
-  background-image: url("/images/mitm2.jpg");
-}
-.card4{
-  background-image: url("/images/dev3.jpg");
-}
-.card5{
-  background-image: url("/images/dev1.jpg");
-}
-h2{
-  font-family: 'Helvetica Neue',
-  Helvetica, Arial, Helvetica, sans-serif;
-  color: #fff;
-  margin: 20px;
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-h3{
-  font-family: 'Helvetica Neue',
-  Helvetica, Arial, Helvetica, sans-serif;
-  color: #fff;
-  margin: 20px;
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-.card i{
-  opacity: 0;
-  transition: opacity 1s;
-  }
-
-  .icons{
-    position: absolute;
-    fill: #fff;
-    color: #fff;
-    height: 130px;
-    top: 226px;
-    width: 50px;
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  }
-.card:hover h2, .card:hover h3, .card:hover i {
-  opacity: 1;
-}
-h2, h3, i {
-  transition: opacity 1s;
-}
-*/
