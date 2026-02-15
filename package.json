@@ -14,15 +14,14 @@
     "next": "16.1.5",
     "picocolors": "^1.0.0",
     "postcss": "^8.4.31",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "scheduler": "^0.23.0",
     "source-map-js": "^1.0.2",
     "streamsearch": "^1.1.0",
     "styled-jsx": "^5.1.1",
     "tslib": "^2.6.2"
   },
-  "devDependencies": {},
   "scripts": {
     "build": "next build",
     "test": "echo \"Error: no test specified\" && exit 1"
